@@ -1,0 +1,324 @@
+/*
+Theme Name: Uku
+Description: Used to style the TinyMCE editor for the Uku neo design style.
+
+* @version 1.0
+*/
+
+html .mceContentBody {
+	max-width: 867px;
+}
+body {
+	font-family: 'Source Serif Pro', serif;
+	color: #000000;
+	font-size: 18px;
+	line-height: 1.7;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+	vertical-align: baseline;
+}
+h1.site-title,
+p.site-title,
+p.intro,
+p,
+table,
+dl,
+ul,
+ol,
+p.section-about-text,
+p.text-big,
+p.text-small,
+table {
+	font-family: 'Poppins', sans-serif;
+}
+blockquote p,
+p span.uppercase,
+h1, h2, h3, h4, h5 {
+	font-family: 'Poppins', sans-serif;
+}
+
+/* --- Headlines --- */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+	margin: 0;
+}
+h1 {
+	font-size: 36px;
+	padding: 6px 0 9px;
+	line-height: 1.2;
+}
+h2 {
+	font-size: 26px;
+	padding: 6px 0 9px;
+	line-height: 1.2;
+}
+h3 {
+	font-size: 24px;
+	padding: 5px 0 8px;
+	line-height: 1.3;
+}
+h4 {
+	font-size: 22px;
+	padding: 5px 0 8px;
+	line-height: 1.3;
+}
+h5 {
+	font-size: 19px;
+	padding: 3px 0;
+	padding: 3px 0;
+	line-height: 1.3;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+h6 {
+	font-size: 19px;
+	padding: 3px 0;
+	line-height: 1.3;
+}
+p.pull-left,
+p.pull-right {
+	font-size: 20px;
+	font-size: 1.25rem;
+	margin-bottom: 30px;
+}
+
+/* --- Text Elements --- */
+p {
+	margin: 0 0 30px;
+}
+p strong {
+	font-weight: 600 !important;
+}
+em {
+	font-style: italic;
+}
+p small {
+	font-size: .8em;
+}
+blockquote {
+	font-size: 22px;
+	padding: 0 50px;
+	margin: 0 0 30px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+blockquote p {
+	font-size: 20px;
+	margin: 0;
+}
+blockquote cite {
+	display: block;
+	padding-top:  20px;
+	font-size: 14px;
+	font-style: normal;
+}
+p.pull-left,
+p.pull-right {
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.entry-content p.pull-right {
+	text-align: right;
+}
+.pull-left {
+	width: 48%;
+	float: left;
+	margin-right: 30px;
+}
+.pull-right {
+	width: 48%;
+	float: right;
+	margin-left: 20px;
+	text-align: right;
+}
+address {
+	margin: 0 0 30px;
+}
+pre {
+	max-width: 100%;
+	word-wrap: break-word;
+	margin-bottom: 30px;
+	padding: 15px;
+	overflow: auto;
+	background: #f4f4f4;
+	color: #444;
+	font-size: 14px;
+}
+code, kbd, tt, var {
+	font-family: Courier, Monaco, monospace;
+	font-size: 14px;
+}
+abbr,acronym {
+	border-bottom:.1em dotted;
+}
+mark, ins {
+	background: #d2f1ff;
+	text-decoration: none;
+	padding: 0 3px;
+}
+span.dropcap {
+	float: left;
+	padding: 3px 4px 0 0;
+	font-size: 50px;
+	font-size: 3.125rem;
+	font-weight: bold;
+	line-height: 0.9;
+}
+.uppercase {
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+p.intro {
+	font-size: 26px;
+	font-size: 1.625rem;
+}
+
+/* --- Images --- */
+img, .page img {
+	max-width:100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+img[class*="wp-image-"] {
+	height: auto;
+	max-width: 97.5%;
+}
+img.size-full {
+	width: auto; /* Prevent stretching of full-size images in IE8 */
+}
+.wp-caption {
+	font-size: 14px;
+}
+.wp-caption-dd {
+	padding: 10px 2px 35px;
+	font-size: 14px;
+}
+img {
+	border: none;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 1.625em;
+}
+.wp-caption {
+	max-width: 100%;
+}
+.wp-caption .wp-caption-text {
+	color: #999;
+	margin: 0;
+	padding: 10px 2px 35px;
+	font-size: 14px;
+}
+/* --- Tables --- */
+table {
+	width: 100%;
+	margin: 0 0 40px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-bottom: 1px solid #ddd;
+	line-height: 2;
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+table td {
+	padding: 10px 10px 10px 0;
+	border-top: 1px solid #ddd;
+}
+table caption {
+	margin: 40px 0;
+}
+table th {
+	border-top: 1px solid #ddd;
+	padding: 10px 10px 10px 0;
+	text-align:left;
+}
+
+/* --- List Elements --- */
+ul, ol {
+	margin: 0 0 30px 0;
+	padding-left: 40px;
+	list-style-position: inside;
+}
+ul {
+	list-style: none;
+}
+ul li {
+	position: relative;
+	padding: 0 0 0 24px;
+}
+ul li:before {
+	vertical-align: top;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '\2013';
+	padding: 0;
+}
+ol {
+	list-style: decimal;
+}
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 0;
+}
+ul {
+	padding-left: 50px;
+}
+ol {
+	padding-left: 70px;
+}
+ol li {
+	padding-left: 4px;
+}
+ul li,
+ol li {
+	list-style-position: outside;
+}
+ul ul,
+ol ol{
+	padding-left: 50px;
+	margin: 0;
+}
+
+/* --- Links --- */
+a,
+a em,
+a strong {
+	color: #000000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #000000;
+}
+
+/* --- Alignment --- */
+.wp-caption {
+		max-width: 100%;
+}
+.alignleft,
+.alignright {
+	display: block;
+}
+.alignleft {
+	margin: 5px 45px 5px 0;
+	float: left;
+}
+.alignright {
+	margin: 5px 0 0 30px;
+	float: right;
+}
+.aligncenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		clear: both;
+}
+img.alignleft,
+img.alignright {
+	margin-top:10px;
+	margin-bottom:20px;
+}
