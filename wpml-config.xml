@@ -1,0 +1,23 @@
+<wpml-config>
+    <admin-texts>
+	    <key name="theme_mods_uku">
+	        <key name="uku_front_section_one_title" />
+	        <key name="uku_front_section_two_title" />
+	        <key name="uku_front_section_three_title" />
+	        <key name="uku_front_section_about_title" />
+          <key name="uku_front_section_about_text" />
+	        <key name="uku_front_section_twocolumn_title" />
+	        <key name="uku_front_section_threecolumn_title" />
+	        <key name="uku_front_section_fourcolumn_title" />
+	        <key name="uku_front_section_sixcolumn_title" />
+          <key name="uku_footerfeature_title" />
+          <key name="uku_footerfeature_btn_link" />
+          <key name="uku_footerfeature_image" />
+          <key name="uku_footerfeature_text_big" />
+          <key name="uku_footerfeature_text_small" />
+          <key name="uku_footerfeature_btn_text" />
+          <key name="uku_custom_latestposts" />
+          <key name="header_image" />
+	    </key>
+    </admin-texts>
+</wpml-config>
